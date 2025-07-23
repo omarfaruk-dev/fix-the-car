@@ -11,7 +11,7 @@ async function dbConnect(collectionName) {
             deprecationErrors: true,
         }
     });
-
+ 
     try {
         // Connect to MongoDB
         await client.connect();
